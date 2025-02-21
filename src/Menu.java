@@ -7,7 +7,7 @@ public class Menu {
         boolean running = true;
 
         while (running) {
-            System.out.println("\n===== Kailua CarRental Menu =====");
+            System.out.println("\n Kailua CarRental Menu");
             System.out.println("1. Tilføj bil");
             System.out.println("2. Vis alle biler");
             System.out.println("3. Slet bil");

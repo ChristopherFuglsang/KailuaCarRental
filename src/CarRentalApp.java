@@ -21,7 +21,7 @@ public class CarRentalApp {
             int odometer = scanner.nextInt();
             System.out.print("Indtast biltype ID (1 = Luxury, 2 = Family, 3 = Sport): ");
             int cartypeId = scanner.nextInt();
-            scanner.nextLine(); // Ryd buffer
+            scanner.nextLine();
 
             String sql = "INSERT INTO car (brand, model, fuel_type, reg_number, reg_date, odometer, cartype_id) VALUES (?, ?, ?, ?, ?, ?, ?)";
             PreparedStatement stmt = conn.prepareStatement(sql);
